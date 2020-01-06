@@ -15,7 +15,7 @@ spring:
         username: postgres
         password: postgres        
     third-datasource:
-        jdbcUrl : jdbc:postgresql://localhost:5432/postgres
+        jdbcUrl : jdbc:postgresql://localhost:5432/postgres?currentSchema=jose
         driver-class-name: org.postgresql.Driver
         username: postgres
         password: postgres
