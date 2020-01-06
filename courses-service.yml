@@ -10,8 +10,7 @@ spring:
         username: sa
         password:
     second-datasource:
-        url: 10.10.25.157
-        port: 5432
+        jdbcUrl : jdbc:postgresql://10.10.25.157:5432/postgres
         driver-class-name: org.postgresql.Driver
         username: postgres
         password: postgres
