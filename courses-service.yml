@@ -9,6 +9,12 @@ spring:
         driver-class-name: org.h2.Driver
         username: sa
         password:
+    second-datasource:
+        url: 10.10.25.157
+        port: 5432
+        driver-class-name: org.postgresql.Driver
+        username: postgres
+        password: postgres
     jpa:
         database-platform: org.hibernate.dialect.H2Dialect
         hibernate:
