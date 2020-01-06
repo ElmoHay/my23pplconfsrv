@@ -13,6 +13,11 @@ spring:
         jdbcUrl : jdbc:postgresql://10.10.25.157:5432/postgres
         driver-class-name: org.postgresql.Driver
         username: postgres
+        password: postgres        
+    second-datasource:
+        jdbcUrl : jdbc:postgresql://localhost:5432/postgres
+        driver-class-name: org.postgresql.Driver
+        username: postgres
         password: postgres
     jpa:
         database-platform: org.hibernate.dialect.H2Dialect
