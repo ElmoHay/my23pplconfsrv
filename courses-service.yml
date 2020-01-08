@@ -23,17 +23,17 @@ spring:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
         hibernate:
             ddl-auto: none
-            jdbc:
-                lob:
-                    non_contextual_creation: true
+        #    jdbc:
+        #        lob:
+        #            non_contextual_creation: true
     backupjpa:
         database-platform: org.hibernate.dialect.H2Dialect
         hibernate:
             ddl-auto: none
-    h2:
-        console:
-            enabled: true
-            path: /h2            
+    #h2:
+    #    console:
+    #        enabled: true
+    #        path: /h2            
 eureka:
     client:
         serviceUrl:
